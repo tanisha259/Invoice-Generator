@@ -1,0 +1,81 @@
+
+Invoice Generator in C++
+
+📄 Project Overview
+
+This is a simple Invoice Generator built using C++. It allows users to create and print invoices for customers by entering product details such as name, quantity, and price. The system calculates totals, taxes, and generates a formatted invoice.
+
+🚀 Features
+
+Add multiple products with name, price, and quantity
+
+Automatically calculate total amount and tax
+
+Generate and display a clean invoice format
+
+Save invoice to a text file (optional)
+
+Simple command-line interface
+
+
+🛠️ Technologies Used
+
+C++
+
+Standard Template Library (STL)
+
+File I/O
+
+
+📂 Project Structure
+
+invoice-generator/
+├── main.cpp           # Main application logic
+├── invoice.h          # Class definitions (optional if modularized)
+├── invoice.cpp        # Implementation of invoice functions
+├── invoices/          # Saved invoices (optional)
+└── README.md
+
+📦 How to Run
+
+Prerequisites
+
+A C++ compiler (like g++)
+
+A terminal or IDE (Code::Blocks, VS Code, etc.)
+
+
+Compile and Run
+
+g++ main.cpp -o invoice-generator
+./invoice-generator
+
+🧪 Sample Output
+
+===========================
+        INVOICE
+===========================
+Customer Name: John Doe
+---------------------------
+Product       Qty   Price
+---------------------------
+Pen           10    5.00
+Notebook       5   20.00
+---------------------------
+Subtotal:             150
+Tax (10%):             15
+Total:                165
+===========================
+
+✏️ How It Works
+
+1. The user enters customer and product details.
+
+
+2. The program stores product data in a list or array.
+
+
+3. It calculates subtotal, tax, and total.
+
+
+4. Outputs a formatted invoice.
